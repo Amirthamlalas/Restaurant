@@ -1,0 +1,117 @@
+
+<div class="container" style="background-color: rgb(228, 228, 248);" >
+    <app-navbar></app-navbar>
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3" >
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    
+                    
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img style="height: 600px;" src="https://images-gmi-pmc.edge-generalmills.com/5b86cdaf-7878-4b0b-9d71-a7210c7e30e3.jpg" class="d-block w-100" alt="...">
+                            <div class="position-absolute top-0 start-0 text-container">
+                              <h3 style="padding-top: 200px;color: purple;font-size:xx-large;padding-left: 200px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Desserts</h3>
+                              <p style="color: rgb(74, 22, 74);font-style: italic;font-size: large;padding-left: 200px;">Cakes and Pastries</p>
+                            </div>
+                           
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img style="height: 600px;" src="https://images.ctfassets.net/aodgvgilhg4e/6GvBzcLlgQgAuMigsM6uSg/878e08ba10b714d5d93763095f642c12/Purple-Potato-Hash-1.jpg?q=90" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1 style="color: purple;font-size:xx-large;background-color: rgb(204, 124, 230);">Non-Vegetarian</h1>
+                                <p style="color: rgb(74, 22, 74);font-style: italic;font-size: large; background-color: rgb(223, 169, 241);">Chinese and Arabic</p>
+                               
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img  style="height: 600px;" src="https://livenaturallymagazine.com/wp-content/uploads/2017/06/PurpleFoods.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1 style="color: purple;font-size:xx-large;background-color: rgb(204, 124, 230);" >Vegetarian</h1>
+                                <p style="color: rgb(74, 22, 74);font-style: italic;font-size: large; background-color: rgb(227, 168, 247);">Made with home made veggies</p>
+                               
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                </div>
+            </div>
+
+
+            <div class="row g-3" style="padding-top: 100px;">
+
+              <h1 style="font-family:'Courier New', Courier, monospace;padding-left: 580px;">What's New?</h1>
+              <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+
+                <div class="cards">
+                  <div class="card" (click)="cardClicked()">
+                    
+                    <img height="300px" src="https://thebakersalmanac.com/wp-content/uploads/2019/09/Earl-grey-lavender-cupcakes-recipe-image-1.jpg" alt="..." class="card-img-top">
+                    
+                      <div class="card-body">
+                    <h2 style="color: purple;">Desserts</h2>
+                      </div>
+                      
+                    
+                  </div>
+                  
+                 </div>
+                
+              </div>
+              <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+
+                <div class="cards">
+                  <div class="card" (click)="cardClicked()">
+                    
+                    <img height="300px" src="https://glimageurl.golocall.com/golocal-post/image/467750_fusionplus_1484731745.jpeg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                      <h2 style="color: purple;">Non-Veg</h2>
+                        </div>
+                  </div>
+                  
+                 </div>
+                
+              </div>
+
+
+              <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+
+                <div class="cards">
+                  <div class="card" (click)="cardClicked()">
+                    
+                    <img height="300px" src="https://www.bawarchi.com/uploads/rdqrQEcbjefeh_bigger.jpg" alt="..." class="card-img-top">
+                    <div class="card-body">
+                      <h2 style="color: purple;">Veg</h2>
+                        </div>
+                  </div>
+                  
+                 </div>
+                
+              </div>
+
+
+
+
+
+
+            </div>
+            
+        </div>
+    </div>
+</div>
